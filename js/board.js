@@ -2,7 +2,7 @@
 var MAX_POKEMON = 80;
 var SRC_POKE_PER_ROW = 13;
 var POKE_PER_ROW = 16;
-var POKE_RESOLUTION = 32;
+var POKE_RESOLUTION = 128;
 
 var currentColor = "color1";
 
