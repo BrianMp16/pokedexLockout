@@ -1,5 +1,5 @@
 
-var MAX_POKEMON = 151;
+var MAX_POKEMON = 80;
 var SRC_POKE_PER_ROW = 13;
 var POKE_PER_ROW = 16;
 var POKE_RESOLUTION = 32;
@@ -17,7 +17,7 @@ function makeBoard() {
     currentColor = (CONNECTION_INFO.connectionMode === "master") ? "color1" : "color2";
     $board = $("#board");
     for (var i = 0; i < MAX_POKEMON; i++) {
-        var bgStyle = "background: url(img/poke_sprites.png)";
+        var bgStyle = "background: url(img/nh_fish_sprites.png)";
         bgStyle += " -" + ((i % SRC_POKE_PER_ROW) * POKE_RESOLUTION) + "px";
         bgStyle += " -" + (Math.floor(i/SRC_POKE_PER_ROW) * POKE_RESOLUTION) + "px";
         var pokeImg = "<div class='poke-img' style='" + bgStyle + "'></div>";
